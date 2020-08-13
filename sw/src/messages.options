@@ -1,0 +1,4 @@
+#Debug_msg options
+Debug_msg.i_samples max_count:125000 fixed_count:true
+Debug_msg.q_samples max_count:125000 fixed_count:true
+* anonymous_oneof:true

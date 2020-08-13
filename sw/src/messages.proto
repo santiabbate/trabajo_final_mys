@@ -1,0 +1,87 @@
+syntax = "proto3";
+
+
+/* Mensaje base, puede contener cualquiera de los tipos */
+message Base_msg {
+    oneof message {
+        Control_msg control = 1;
+        Config_msg config = 2;
+        Ack_msg ack = 3;
+    }
+}
+
+message Control_msg {
+    enum Command{
+        START = 0;
+        STOP = 1;
+        TRIG_DBG = 2;
+        BROKEN_CONN = 3;
+    }
+    Command command = 1;
+}
+
+message Config_msg {
+    oneof config{
+        Generator_Config_msg generator = 1;
+        Demodulator_config_msg demodulator = 2;
+    }
+}
+
+message Ack_msg {
+    enum Retval{
+        ACK = 0;
+        INVALID_MSG = 1;
+        BAD_CONFIG = 2;
+        NO_CONFIG = 3;
+        BAD_COMMAND = 4;
+        DEBUG_ERROR = 5;
+        DEBUG_IS_VALID = 6;
+    }
+    Retval retval = 1;
+}
+
+
+message Generator_Config_msg {
+    bool debug_enabled = 1;
+    enum Mode{
+        CONTINUOUS = 0;
+        PULSED = 1;
+    }
+    Mode mode = 2;
+    oneof modulation_config{
+        Const_Freq const_freq = 3;
+        Freq_Mod freq_mod = 4;
+        Phase_Mod phase_mod = 5;
+    }
+    uint32 period_us = 6;
+    uint32 pulse_length_us = 7;
+}
+
+message Const_Freq {
+    uint32 freq_khz = 1;
+}
+
+message Freq_Mod {
+    uint32 low_freq_khz = 1;
+    uint32 high_freq_khz = 2;
+    uint32 length_us = 3;
+}
+
+message Phase_Mod {
+    uint32 freq_khz = 1;
+    uint32 barker_seq_num = 2;
+    uint32 barker_subpulse_length_us = 3;
+}
+
+
+message Demodulator_config_msg {
+    
+}
+
+
+message Debug_msg{
+    repeated sint32 i_samples = 1;
+    repeated sint32 q_samples = 2;
+    uint32 num_samples = 3;
+}
+
