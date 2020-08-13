@@ -2,6 +2,7 @@
 vivado/*
 !vivado/generator.xpr
 !vivado/*.tcl
+!vivado/generator_wrapper.xsa
 vivado/ps7_init.tcl
 
 # Exclude vitis generated files but keep sources
