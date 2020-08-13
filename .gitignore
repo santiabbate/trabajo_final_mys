@@ -1,0 +1,13 @@
+# Vivado excludes
+vivado/*
+!vivado/generator.xpr
+!vivado/*.tcl
+vivado/ps7_init.tcl
+
+# Exclude vitis generated files but keep sources
+sw/*
+!generator/sw/src
+
+# Exclude block diagram generated files but keep block diagram files
+bd/*/*
+!bd/*/*.bd

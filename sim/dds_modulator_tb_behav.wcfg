@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dds_modulator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dds_modulator_pkg" />
+            <top_module name="dds_modulator_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1543951199fs"></ZoomStartTime>
+      <ZoomEndTime time="1544063199fs"></ZoomEndTime>
+      <Cursor1Time time="1544029236fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="200"></NameColumnWidth>
+      <ValueColumnWidth column_width="148"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject type="logic" fp_name="/dds_modulator_tb/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dds_modulator_tb/resetn_i">
+      <obj_property name="ElementShortName">resetn_i</obj_property>
+      <obj_property name="ObjectShortName">resetn_i</obj_property>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus252">
+      <obj_property name="label">RESYNC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[64]">
+         <obj_property name="ElementShortName">[64]</obj_property>
+         <obj_property name="ObjectShortName">[64]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus220">
+      <obj_property name="label">OFFSET</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[61]">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">[61]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[60]">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">[60]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[59]">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">[59]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[58]">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">[58]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[57]">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">[57]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[56]">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">[56]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[55]">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">[55]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[54]">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">[54]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[53]">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">[53]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[52]">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">[52]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[51]">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">[51]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[50]">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">[50]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[49]">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">[49]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[48]">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">[48]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[47]">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">[47]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[46]">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">[46]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[45]">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">[45]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[44]">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">[44]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[43]">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">[43]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[42]">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">[42]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[41]">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">[41]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[40]">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">[40]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[39]">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">[39]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[38]">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">[38]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[37]">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">[37]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[36]">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">[36]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[35]">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">[35]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[34]">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">[34]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[33]">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">[33]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[32]">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[31]">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus189">
+      <obj_property name="label">PINC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeMin">-1.86121e+08</obj_property>
+      <obj_property name="AnalogYRRangeMax">4.99971e+08</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[29]">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[28]">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[27]">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[26]">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[25]">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[24]">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[23]">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[22]">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[21]">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[20]">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[19]">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[18]">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[17]">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[16]">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[15]">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[14]">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[13]">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[12]">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[11]">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[10]">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[9]">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[8]">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[6]">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[5]">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tdata[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus269">
+      <obj_property name="label">COS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[29]">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[28]">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[27]">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[26]">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[25]">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[24]">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[23]">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[22]">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[21]">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[20]">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[19]">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[18]">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[17]">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[16]">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus254">
+      <obj_property name="label">SIN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[13]">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[12]">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[11]">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[10]">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[9]">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[8]">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[6]">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[5]">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tdata[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/DUT/barker_subpulse_counter_reg">
+      <obj_property name="ElementShortName">barker_subpulse_counter_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">barker_subpulse_counter_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/DUT/barker_subpulse_counter_next">
+      <obj_property name="ElementShortName">barker_subpulse_counter_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">barker_subpulse_counter_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tvalid">
+      <obj_property name="ElementShortName">M_AXIS_DATA_0_tvalid</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_DATA_0_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dds_modulator_tb/M_AXIS_DATA_0_tready">
+      <obj_property name="ElementShortName">M_AXIS_DATA_0_tready</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_DATA_0_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/config_reg_0">
+      <obj_property name="ElementShortName">config_reg_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">config_reg_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/config_reg_1">
+      <obj_property name="ElementShortName">config_reg_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">config_reg_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/config_reg_2">
+      <obj_property name="ElementShortName">config_reg_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">config_reg_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/config_reg_3">
+      <obj_property name="ElementShortName">config_reg_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">config_reg_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/config_reg_4">
+      <obj_property name="ElementShortName">config_reg_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">config_reg_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/config_reg_5">
+      <obj_property name="ElementShortName">config_reg_5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">config_reg_5[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/barkerseq">
+      <obj_property name="ElementShortName">barkerseq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">barkerseq[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dds_modulator_tb/dds_en">
+      <obj_property name="ElementShortName">dds_en</obj_property>
+      <obj_property name="ObjectShortName">dds_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/m_axis_modulation_tdata">
+      <obj_property name="ElementShortName">m_axis_modulation_tdata[71:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_modulation_tdata[71:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tvalid">
+      <obj_property name="ElementShortName">m_axis_modulation_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_modulation_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dds_modulator_tb/m_axis_modulation_tready">
+      <obj_property name="ElementShortName">m_axis_modulation_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_modulation_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dds_modulator_tb/DUT/m_axis_modulation_tlast">
+      <obj_property name="ElementShortName">m_axis_modulation_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_modulation_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dds_modulator_tb/DUT/dbg_en">
+      <obj_property name="ElementShortName">dbg_en</obj_property>
+      <obj_property name="ObjectShortName">dbg_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dds_modulator_tb/DUT/packet_counter">
+      <obj_property name="ElementShortName">packet_counter[17:0]</obj_property>
+      <obj_property name="ObjectShortName">packet_counter[17:0]</obj_property>
+   </wvobject>
+</wave_config>
