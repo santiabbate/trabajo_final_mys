@@ -12,4 +12,7 @@ sw/*
 # Exclude block diagram generated files but keep block diagram files
 bd/*/*
 !bd/*/*.bd
-!bd/*/hdl 
+!bd/*/hdl
+
+*__pycache__*
+.vscode/
